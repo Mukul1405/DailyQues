@@ -30,9 +30,8 @@ class remAdjDup
         return (str.charAt(0) + rem);
     }
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        String s1=in.next();
+        Scanner sc=new Scanner(System.in);
+        String s1=sc.next();
         System.out.println(remove(s1,'\0'));
-        in.close();
     }
 }
