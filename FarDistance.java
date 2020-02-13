@@ -4,9 +4,11 @@ public class FarDistance {
 
 	public static void main(String args[])
 	{
-		int n;
+		int n,t;
 		Scanner sc=new Scanner(System.in);
+		t=sc.nextInt();
 		n=sc.nextInt();
+		for(int k=0;k<t;k++) {
 		int arr[]=new int[n];
 		for(int i=0;i<n;i++)
 		{
@@ -28,5 +30,6 @@ public class FarDistance {
 			}
 		}
 		System.out.println(diff);
+		}
 	}
 }
